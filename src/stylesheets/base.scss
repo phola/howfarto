@@ -1,0 +1,22 @@
+@import "stylesheets/utilities/normalize";
+html, body, #main
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.centre {
+  flex: 1;
+  position:relative;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ overflow:hidden;
+}
+
+.centrebody {
+  min-width: 90%;
+  overflow:hidden;
+}

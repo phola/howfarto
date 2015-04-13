@@ -1,0 +1,33 @@
+{
+  "name": "howfarto",
+  "version": "1.0.0",
+  "description": "experimental distance to cities app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phola/howfarto.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/phola/howfarto",
+  "jshint": {
+    "esnext": "true"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "1.1.0",
+    "babel-core": "^4.7.5",
+    "babel-loader": "^4.1.0",
+    "css-loader": "^0.9.1",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "geolocation": "^0.2.0",
+    "lodash": "^3.6.0",
+    "react": "^0.12.2",
+    "sass-loader": "^0.4.1",
+    "style-loader": "^0.8.3",
+    "turf": "^2.0.2",
+    "webpack": "^1.7.2"
+  }
+}

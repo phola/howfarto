@@ -1,0 +1,17 @@
+@import "stylesheets/config/colors";
+
+
+
+.compass {
+  margin: auto;
+   position: absolute;
+   top: 0; left: 0; bottom: 0; right: 0;
+height:100vw;
+  background: url(/compass.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  /*transition: transform 0.5s, opacity 1s;
+  */
+
+}

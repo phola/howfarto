@@ -1,0 +1,9 @@
+@import "stylesheets/config/colors";
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color:#eaecea;
+  overflow:hidden;
+}
