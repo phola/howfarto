@@ -77,6 +77,19 @@
 .citylist .r-leave.r-leave-active {
   -webkit-transform: translateX(1000px);
           transform: translateX(1000px); }
+.compass {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vw;
+  background: url(compass.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: -webkit-transform 0.5s, opacity 1s;
+  transition: transform 0.5s, opacity 1s; }
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
@@ -261,22 +274,6 @@ html, body, #main {
 .centrebody {
   min-width: 90%;
   overflow: hidden; }
-.compass {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 100vw;
-  background: url(/compass.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  transition: -webkit-transform 0.5s, opacity 1s;
-  transition: transform 0.5s, opacity 1s; }
-.footer {
-  font-style: italic;
-  display: none; }
 .bearing {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -294,6 +291,9 @@ html, body, #main {
   left: 0;
   bottom: 0;
   right: 0; }
+.footer {
+  font-style: italic;
+  display: none; }
 .container {
   display: -webkit-flex;
   display: -ms-flexbox;
