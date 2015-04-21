@@ -2,6 +2,7 @@ const React = require("react");
 const Header = require("javascripts/header");
 const CityList = require("javascripts/citylist");
 const Compass = require("javascripts/compass");
+const Bearing = require("javascripts/bearing");
 const Footer = require("javascripts/footer");
 
 require("stylesheets/modules/container");
@@ -61,7 +62,7 @@ const Container = React.createClass({
             componentDidMount: function () {
                 var self = this;
                 if (window.DeviceOrientationEvent) {
-                    window.addEventListener('deviceorientation', _.throttle(self.devOrientHandler, 500,{
+                    window.addEventListener('deviceorientation', _.throttle(self.devOrientHandler, 1500,{
                                                             'trailing': true
                                                           }));
 
@@ -94,6 +95,7 @@ const Container = React.createClass({
                             <Header data={{location:this.state.data.location.geometry.coordinates,bearing:this.state.data.bearing}} />
                             <div className="centre">
                               <div className="centrebody">
+                              
                             <Compass data={{bearing:this.state.data.bearing}} />
                             <CityList data={{cities:this.state.data.filtered,direction:this.state.data.direction}} />
                               </div>

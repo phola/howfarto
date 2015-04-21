@@ -20,6 +20,7 @@
     "autoprefixer-loader": "1.1.0",
     "babel-core": "^4.7.5",
     "babel-loader": "^4.1.0",
+    "basscss": "^6.0.2",
     "css-loader": "^0.9.1",
     "extract-text-webpack-plugin": "^0.3.8",
     "geolocation": "^0.2.0",

@@ -29,12 +29,12 @@
 .citylist .l-leave {
   transition: transform 0.2s;
   opacity:0;
-  transform: translate3d(0,-100px,0);
+  transform: translateX(-1000px);
 }
 
 
 .citylist .l-leave.l-leave-active {
-  transform: translate3d(1000px,-100px,0);
+  transform: translateX(-1000px);
 }
 
 
@@ -52,8 +52,8 @@
   .citylist .r-leave {
   transition: transform 0.2s;
   opacity:0;
-  transform: translate3d(0,100px,0);
+  transform:  translateX(0);
 }
   .citylist .r-leave.r-leave-active {
-  transform: translate3d(-1000px,100px,0);
+  transform:  translateX(1000px);
 }

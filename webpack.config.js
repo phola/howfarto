@@ -32,9 +32,10 @@ const config = {
   },
   plugins: [
     new ExtractTextPlugin("[name].css"),
-  ],
+    new webpack.HotModuleReplacementPlugin()
+    ],
   resolve: {
-    extensions: ["", ".js", ".scss"],
+    extensions: ["", ".js", ".scss", ".css"],
     modulesDirectories: ["src", "node_modules"],
   },
 };
